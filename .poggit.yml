@@ -1,0 +1,13 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Soupiia/EventsPro
+build-by-default: true
+branches:
+- master
+projects:
+  EventsPro:
+    path: ""
+    libs: 
+      - src: poggit/libasynql/libasynql
+        version: ^3.0
+      - src: Atomization/gui/gui
+        version: ^1.0.1
+...
